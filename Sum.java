@@ -1,13 +1,13 @@
-// Java Key Board Input
+// Keyboard Input With Subtracting
 
 import java.util.*;
 
 class Sum {
     public static void main(String args[]) {
+        
+        System.out.println("The sum value of two numbers \n");
 
-        System.out.println("You can get the sum of two numbers here \n" );
-
-        Scanner input=new Scanner(System.in);
+        Scanner input= new Scanner(System.in);
 
         int x,y,z;
 
@@ -18,6 +18,6 @@ class Sum {
         y=input.nextInt();
 
         z=x+y;
-        System.out.println("The sum of the two numbers you entered is : " +z);
+        System.out.print("The value is when you sum the two numbers you entered : " +z);
     }
 }
